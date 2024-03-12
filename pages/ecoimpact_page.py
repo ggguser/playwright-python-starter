@@ -3,7 +3,7 @@ import config
 
 
 class EcoimpactPage:
-    _ECOIMPACT_CALC = ".desktop-wrapper-OutiE"
+    _ECOIMPACT_CALC = ".desktop-impact-items-F7T6E"
 
     def open_ecoimpact_page(self, page: Page) -> None:
         page.goto(config.url.ECOIMPACT_URL)
